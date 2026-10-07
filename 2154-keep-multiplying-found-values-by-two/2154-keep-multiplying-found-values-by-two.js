@@ -4,9 +4,8 @@
  * @return {number}
  */
 var findFinalValue = function(nums, original) {
-    let final=original
-    while(nums.includes(final)){
-        final=final*2
-    }
-    return final
+while(nums.includes(original)){
+    original=original*2
+}
+return original
 };
